@@ -20,7 +20,7 @@ import time
 
 class Fireball(arcade.Sprite):
     def update(self):
-        speed = 10
+        speed = 4
         self.center_y += speed
 
 class Enemy(arcade.Sprite):
